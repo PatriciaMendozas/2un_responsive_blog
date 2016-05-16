@@ -1,0 +1,16 @@
+$tipografia:"Courgette",sans-serif;
+$color_blanco:#fff;
+$color_anaranjado:#DF7401;
+$bacground_marino:#181124;
+$bacground_violeta:#392B52;
+h1,h2,h3{
+	font-family:$tipografia;
+	color:$color_anaranjado;
+}
+p,a{
+	color:$color_blanco;
+}
+.header{
+	background:$bacground_marino;
+}
+

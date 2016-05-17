@@ -2,6 +2,7 @@
 	outline:1px solid rgba(255,0,0,0.3);
 }
 $tipografia:"Courgette",sans-serif;
+$tipografiarial:"Arial",sans-serif;
 $color_blanco:#fff;
 $color_anaranjado:#DF7401;
 $bacground_marino:#181124;
@@ -36,6 +37,11 @@ img{width: 100%;}
 .menu{
 	font-size:$font16;
 }
+
+.submenu>a:hover{
+	text-decoration:none;
+	color:$color_anaranjado;
+}
 .cuadro_came{
 	margin: 8% 26%;
 	padding: 3% 0% 1%;
@@ -53,4 +59,40 @@ img{width: 100%;}
 .pg2{
 	padding: 1% 0%;
 }
+.arial{
+	font-family:$tipografiarial;
+}
+.search{
+	border: 19px solid $bacground_marino;
+	padding: 2% 0% 2% 4%;
+}
+.bradio{
+	border-radius:100%;
+	margin:3%;
+	padding:3% 4%;
+}
+.pd4{
+	padding:4%;
+}
+.pdr2{
+	margin:1% 2%;
+}
+.navbar-default .navbar-nav>li>a {
+    color:$color_blanco;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color:$color_anaranjado;
+}
+.spacio{
+	word-spacing:2px;
+}
 
+@media(max-width:768px){
+		
+		.cuadro_came{
+			margin: 21% 10% 6%;
+		}
+		.pdiz0{
+			padding-right:0%;
+		}
+}

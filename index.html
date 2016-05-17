@@ -2,74 +2,106 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<!--interpreta q la nueva version de intert como antigua-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--mobile-->
 	<title>Flatness: Responsive Blog</title>
+
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery-1.12.3.min.js">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.js">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<div class="row header marino">
-		<div class="container">
-			<div class="col-md-6 pdl0">
-				<img class="img-logo" src="image/header-logo.png">
-			</div>
-			<div class="col-md-6">
-				<ul class="menu mg4 list-inline list-unstyled">
-					<li><a clas="submenu">LIFESTYLE</a></li>
-					<li><a class="submenu">FLOWERS</a></li>
-					<li><a clas="submenu">FASHION</a></li>
-					<li><a clas="submenu">NEWS</a></li>
-					<li><a clas="submenu">FEATURES</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
+	  <div class="navbar navbar-default navbar-fixed-top marino" role="navigation">
+      <div class="container ">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         <img class="img-logo" src="image/header-logo.png">
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right pdr2">
+            <li><a href="#">LIFESTYLE</a></li>       
+            <li><a href="#">FLOWERS</a></li>
+            <li><a href="#">FASHION</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">FEATURES</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+			
+
+		
 	<div class="selection violeta">
 		<div class="container">
 			<div class="row foto1 mg4">
 				<div class="cuadro_came marino text-center">
 					<h1>Spring Came</h1>
-					<ul class="menu_came blanco list-inline list-unstyled">
-						<li class="submenu_came">Life</li>
-						<li class="submenu_came">Amanda Rey</li>
-						<li class="submenu_came">10th March 2015</li>
-					</ul>
+					<p class="spacio">Life - Amanda Rey - 10th March 2015</p>
 				</div>
 			</div>
 			<div class="row mg4 text-center">
-				<div class="col-md-4 pdl0">
+				<div class="col-md-4 pdl0 pdiz0">
 					<img class="img-responsive"src="image/image3.jpg">
 					<div class="marino pg2"><h3>Froral Fragrance</h3><p>Life Amanda Ray 10th March 2015</p></div>
-			</div>
-			<div class="col-md-4 pdl0">
+				</div>
+				<div class="col-md-4 pdl0 pdiz0">
 					<img class="img-responsive"src="image/image7.jpg">
 					<div class="marino pg2"><h3>Now with Flatness</h3><p >News Amanda Ray 28th July 2015</p></div>
-			</div>
-			<div class="col-md-4 pdl0 ">
+				</div>
+				<div class="col-md-4 pdl0 pdiz0">
 					<img class="img-responsive"src="image/image2.jpg">
 					<div class="marino pg2"><h3>Garden Flowers</h3><p >Life Amanda Ray 28th October 2015</p></div>
+				</div>
 			</div>
-			
-		<div class="row">
-			<div class="col-md-7 mg4">
-				
-					<img class="img-responsive" src="image/image4.jpg">
-					<div class="marino pg2">
-						<h3>Garden Flowers</h3><p>Now With Flaslness </p>
+			<div class="row text-center">
+				<div class="col-md-7 mg4">
+						<img class="img-responsive" src="image/image4.jpg">
+						<div class="marino pg2">
+							<h3>Garden Flowers</h3><p>Now With Flaslness </p >
+							<p class="arial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti accusamus suscipit eaque voluptates dolores labore culpa corporis sit nostrum quisquam dicta atque est ducimus nihil ipsam porro ipsum, aut, maiores.</p>
+						</div>
+						<div class="video marino">
+		 				 <iframe src="https://player.vimeo.com/video/56810854" width="100%" height="305" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+		 				 <div class="pg2"><p class="arial">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt eos consequuntur maiores vero quidem veritatis, iste praesentium fuga sit nobis porro, nulla quae. Eum temporibus deserunt laudantium quisquam cumque fugit?</p>
+		 				 </div>
+		 				</div>
+				</div>
+				<div class="col-md-5 mg4 hidden-xs">
+					<div class="search"><p class="arial text-left ">Search</p></div>
+					<div class="marino">
+						<h3>About Me</h3>
+						<img class="img-responsive"src="image/kew_gardens_3_500x500.jpg">
+
+						<p class="mg4 arial"><strong>Amanda Ray</strong></p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt impedit iste aut ducimus blanditiis quod sed, dicta ab laboriosam, rem.</p>
+						<div class="pd4">
+							<a href="#" class="violeta bradio"><i class="fa fa-facebook"></i></a>
+							<a href="#" class="violeta bradio"><i class="fa fa-instagram"></i></a>
+							<a href="#" class="violeta bradio"><i class="fa fa-twitter"></i></a>
+							<a href="#" class="violeta bradio"><i class="fa fa-youtube"></i></a>
+						</div>
 					</div>
-				
-			</div>
-			<div class="col-md-5 mg4">
-				
+				</div>
 			</div>
 		</div>
 	</div>
-	</div>
-	<div class="footer marino text-center">
+	<div class=" footer marino text-center">
 		<p class="pd2">All Rights Reserved @</p>
-	</div>
+	</
 	<!-- Inserta aqui tu codigo -->
 </body>
 </html>

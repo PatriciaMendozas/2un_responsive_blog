@@ -30,6 +30,10 @@ img {
 .menu {
   font-size: 16px; }
 
+.submenu > a:hover {
+  text-decoration: none;
+  color: #DF7401; }
+
 .cuadro_came {
   margin: 8% 26%;
   padding: 3% 0% 1%; }
@@ -46,5 +50,39 @@ img {
 
 .pg2 {
   padding: 1% 0%; }
+
+.arial {
+  font-family: "Arial", sans-serif; }
+
+.search {
+  border: 19px solid #181124;
+  padding: 2% 0% 2% 4%; }
+
+.bradio {
+  border-radius: 100%;
+  margin: 3%;
+  padding: 3% 4%; }
+
+.pd4 {
+  padding: 4%; }
+
+.pdr2 {
+  margin: 1% 2%; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #DF7401; }
+
+.spacio {
+  word-spacing: 2px; }
+
+@media (max-width: 768px) {
+  .cuadro_came {
+    margin: 21% 10% 6%; }
+
+  .pdiz0 {
+    padding-right: 0%; } }
 
 /*# sourceMappingURL=main.css.map */

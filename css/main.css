@@ -1,11 +1,50 @@
+* {
+  outline: 1px solid rgba(255, 0, 0, 0.3); }
+
 h1, h2, h3 {
   font-family: "Courgette", sans-serif;
   color: #DF7401; }
 
 p, a {
+  color: #fff;
+  font-family: "Courgette", sans-serif; }
+
+img {
+  width: 100%; }
+
+.img-logo {
+  width: 40%; }
+
+.marino {
+  background: #181124; }
+
+.blanco {
   color: #fff; }
 
-.header {
-  background: #181124; }
+.violeta {
+  background: #392B52; }
+
+.mg4 {
+  margin: 4% 0%; }
+
+.menu {
+  font-size: 16px; }
+
+.cuadro_came {
+  margin: 8% 26%;
+  padding: 3% 0% 1%; }
+
+.foto1 {
+  background-image: url("../image/header-image.jpg");
+  background-size: cover; }
+
+.pdl0 {
+  padding-left: 0%; }
+
+.pdd0 {
+  padding-right: 0%; }
+
+.pg2 {
+  padding: 1% 0%; }
 
 /*# sourceMappingURL=main.css.map */

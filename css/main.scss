@@ -1,16 +1,56 @@
+*{
+	outline:1px solid rgba(255,0,0,0.3);
+}
 $tipografia:"Courgette",sans-serif;
 $color_blanco:#fff;
 $color_anaranjado:#DF7401;
 $bacground_marino:#181124;
 $bacground_violeta:#392B52;
+$font16:16px;
+
 h1,h2,h3{
 	font-family:$tipografia;
 	color:$color_anaranjado;
 }
 p,a{
 	color:$color_blanco;
+	font-family:$tipografia;
 }
-.header{
+img{width: 100%;}
+.img-logo{
+	width: 40%;
+}
+.marino{
 	background:$bacground_marino;
+}
+.blanco{
+	color:$color_blanco;
+}
+
+.violeta{
+	background:$bacground_violeta;
+}
+.mg4{
+	margin: 4% 0%;
+}
+.menu{
+	font-size:$font16;
+}
+.cuadro_came{
+	margin: 8% 26%;
+	padding: 3% 0% 1%;
+}
+.foto1{
+	background-image:url("../image/header-image.jpg");
+	background-size:cover;
+	}
+.pdl0{
+	padding-left:0%;
+}
+.pdd0{
+	padding-right:0%;
+}
+.pg2{
+	padding: 1% 0%;
 }
 
